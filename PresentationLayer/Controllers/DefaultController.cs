@@ -13,6 +13,15 @@ namespace PresentationLayer.Controllers
             return View();
         }
 
+        public PartialViewResult Header()
+        {
+            return PartialView();
+        }
+
+        public PartialViewResult Navbar()
+        {
+            return PartialView();
+        }
 
     }
 }
