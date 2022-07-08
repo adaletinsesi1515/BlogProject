@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLayer.Abstract
+namespace DataAccessLayer.Abstract
 {
-    interface ISkillService : IGenericService<Skill>
+    interface IUnvanDal : IGenericDal<Unvan>
     {
     }
 }

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class Feature
+    public class Birim
     {
         [Key]
-        public int FeatureId { get; set; }
-        public string Header { get; set; }
-        public string Name { get; set; }
-        public string Title { get; set; }
+        public int BirimId { get; set; }
+        public string BirimAdi { get; set; }
+        public string BirimKod { get; set; }
+        public ICollection<Personel> personels { get; set; }
     }
 }

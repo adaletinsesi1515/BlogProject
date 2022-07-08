@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Abstract
+namespace BusinessLayer.Abstract
 {
-    interface IServiceDal : IGenericDal<Service>
+    interface IPersonelService : IGenericService<Personel>
     {
     }
 }

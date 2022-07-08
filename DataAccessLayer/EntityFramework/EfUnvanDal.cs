@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfTestimonialDal : GenericRepository<Testimonial>, ITestimonialDal
+    public class EfUnvanDal : GenericRepository<Unvan>, IUnvanDal
     {
+
     }
 }

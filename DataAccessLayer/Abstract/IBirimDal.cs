@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    interface ISkillDal : IGenericDal<Skill>
+    interface IBirimDal : IGenericDal<Birim>
     {
     }
 }

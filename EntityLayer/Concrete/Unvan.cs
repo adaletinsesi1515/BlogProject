@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.Concrete
 {
-    public class Skill
+    public class Unvan
     {
         [Key]
-        public int SkillId { get; set; }
-        public string Title { get; set; }
-        public string Value { get; set; }
+        public int UnvanId { get; set; }
+        public string Unvani { get; set; }
+        public ICollection<Personel> Personels { get; set; }
 
     }
 }
