@@ -12,7 +12,7 @@ namespace EntityLayer.Concrete
         [Key]
         public int BirimId { get; set; }
         public string BirimAdi { get; set; }
-        public string BirimKod { get; set; }
+        public string BirimKod { get; set; } 
         public ICollection<Personel> personels { get; set; }
     }
 }
